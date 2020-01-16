@@ -38,3 +38,11 @@ cd Global-Dark-Nordic-theme
 cp Dotfiles/Wallpapers/nordic_dark_wallpaper.png /home/william/Pictures/wallpaper.png 
 echo 'feh --bg-fill ~/Pictures/wallpaper.png' >> /home/william/.profile
 cd ..
+
+# Set up firefox
+cd ~/.mozilla/firefox
+cd *.default
+mkdir chrome
+cp ~/.config/i3/Global-Dark-Nordic-theme/Dotfiles/firefox/Dark_Nordic/* .
+echo 'Visit https://www.userchrome.org/how-create-userchrome-css.html to set up firefox profile'
+cd ~/.config/i3
