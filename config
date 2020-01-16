@@ -155,7 +155,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bar {
-    font Hack, FontAwesome 12
+    font pango:Hack 8, FontAwesome 8
     position top
     status_command i3status-rs /home/william/.config/i3/status.toml
     colors {
